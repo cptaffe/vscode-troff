@@ -3,7 +3,10 @@
 
 .PHONY:
 
-all:
+%.json: %.yaml
+	yq '@json' <$< >$@
+
+all: syntaxes/troff.tmLanguage.json
 
 initialize:
 

@@ -8,7 +8,7 @@
         "vscode": "^1.66.0"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "keywords": [
         "troff",
@@ -44,7 +44,7 @@
             {
                 "language": "troff",
                 "scopeName": "text.troff",
-                "path": "./syntaxes/troff.tmLanguage"
+                "path": "./syntaxes/troff.tmLanguage.json"
             }
         ]
     },
